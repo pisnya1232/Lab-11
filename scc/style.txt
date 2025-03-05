@@ -1,0 +1,38 @@
+Основні стилі:
+1. Загальні стилі для всіх елементів у калькуляторі
+#calculator * { font-size: 16px; }
+Усі елементи (*) всередині контейнера #calculator мають шрифт розміром 16px.
+
+2. Таблиця калькулятора
+#calculator table {
+    border: solid 3px silver;
+    border-spacing: 3px;
+    background-color: #EEE;
+}
+Рамка 3px срібного кольору (silver).
+Відступи між комірками 3px.
+Фон таблиці — світло-сірий (#EEE).
+
+3. Комірки таблиці (td)
+#calculator table td { border-spacing: 3px; }
+Відступи між комірками (td) 3px.
+
+4. Поле введення (дисплей калькулятора)
+input.display {
+    width: 166px;
+    text-align: right;
+}
+Ширина 166px.
+Вміст вирівняно по правому краю.
+
+5. Стилі для кнопок (операційних та числових)
+input[type=button] {
+    width: 40px;
+    height: 30px;
+}
+Ширина: 40px.
+Висота: 30px.
+
+6. Стилі для контейнера кнопок
+td.buttons { border-top: solid 1px silver; }
+Верхня межа 1px срібного кольору (silver), щоб відокремити кнопки від дисплея.
